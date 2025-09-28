@@ -393,7 +393,7 @@ class _BlogScreenState extends State<BlogScreen> {
                                               )
                                             : Text(
                                                 _isLoggedIn
-                                                    ? (_editingPostId == null ? 'Write Post' : 'Update Post')
+                                                    ? (_editingPostId == null ? ' Post' : 'Update Post')
                                                     : 'Sign In / Sign Up',
                                                 style: GoogleFonts.poppins(
                                                   fontSize: isMobile ? 11 : 13,
